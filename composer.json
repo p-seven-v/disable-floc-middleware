@@ -1,5 +1,5 @@
 {
-    "name": "pp7v/disable-floc-middleware",
+    "name": "p7v/disable-floc-middleware",
     "description": "Disable Google's FLoC with help of PSR-15 middleware",
     "type": "library",
     "license": "MIT",
