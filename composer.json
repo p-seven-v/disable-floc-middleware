@@ -1,0 +1,32 @@
+{
+    "name": "pp7v/disable-floc-middleware",
+    "description": "Disable Google's FLoC with help of PSR-15 middleware",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "psr/http-server-middleware": "^1.0",
+        "symfony/polyfill-php73": "^1.22"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.4",
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Alex Plekhanov",
+            "email": "alex@plekhanov.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "P7v\\DisableFloc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
