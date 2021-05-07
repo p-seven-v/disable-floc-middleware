@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/p-seven-v/disable-floc-middleware/compare/1.0.0...master)
 
-## 1.0.0 - 2021-05-07
+## 1.0.0 - 2021-05-08
 
 ### Added
 - Added PSR-15 `DisableFlocMiddleware`
