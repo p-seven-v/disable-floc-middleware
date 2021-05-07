@@ -10,7 +10,7 @@
     },
     "require-dev": {
         "nyholm/psr7": "^1.4",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^8.5 | ^9.0"
     },
     "authors": [
         {
