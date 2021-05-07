@@ -9,4 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 1.0.0 - 2021-05-07
 
 ### Added
-- Added PSR-15 DisableFlocMiddleware
+- Added PSR-15 `DisableFlocMiddleware`
