@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/p7v/disable-floc-middleware.svg?style=flat)](https://packagist.org/packages/p7v/disable-floc-middleware)
 
-This package will automatically disable [Google's FLoC](https://plausible.io/blog/google-floc).
+This package will help you disable [Google's FLoC](https://plausible.io/blog/google-floc).
 
 ## Installation
 
