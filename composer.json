@@ -5,12 +5,12 @@
     "license": "MIT",
     "require": {
         "php": ">=7.2.5",
-        "psr/http-server-middleware": "^1.0",
-        "symfony/polyfill-php73": "^1.22"
+        "psr/http-server-middleware": "^1.0"
     },
     "require-dev": {
         "nyholm/psr7": "^1.4",
-        "phpunit/phpunit": "^8.5 | ^9.0"
+        "phpunit/phpunit": "^8.5 | ^9.0",
+        "symfony/polyfill-php73": "^1.23"
     },
     "authors": [
         {
