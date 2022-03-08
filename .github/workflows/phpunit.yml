@@ -10,10 +10,18 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [ 7.2, 7.3, 7.4, 8.0, 8.1 ]
-        stability: [ prefer-lowest, prefer-stable ]
+        php:
+          - 7.2
+          - 7.3
+          - 7.4
+          - 8.0
+          - 8.1
+        dependencies:
+          - locked
+          - lowest
+          - highest
 
-    name: Tests on PHP ${{ matrix.php }} - ${{ matrix.stability }}
+    name: Tests on PHP ${{ matrix.php }} - ${{ matrix.dependencies }}
 
     steps:
       - name: Checkout code
@@ -26,8 +34,10 @@ jobs:
           tools: composer:v2
           coverage: none
 
-      - name: Install dependencies
-        run: composer update --${{ matrix.stability }} --prefer-dist --no-interaction --no-progress
+      - name: Composer install
+        uses: ramsey/composer-install@v2
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
 
       - name: Execute tests
         run: ./vendor/bin/phpunit --verbose
