@@ -20,8 +20,10 @@ jobs:
           tools: composer:v2
           coverage: pcov
 
-      - name: Install dependencies
-        run: composer update --prefer-stable --prefer-dist --no-interaction --no-progress
+      - name: Composer install
+        uses: ramsey/composer-install@v2
+        with:
+          dependency-versions: locked
 
       - name: Execute tests
         run: ./vendor/bin/phpunit --coverage-clover=clover.xml
