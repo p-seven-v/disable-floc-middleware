@@ -9,8 +9,7 @@
     },
     "require-dev": {
         "nyholm/psr7": "^1.4",
-        "phpunit/phpunit": "^8.5.21 || ^9.0",
-        "symfony/polyfill-php73": "^1.23"
+        "phpunit/phpunit": "^8.5.21 || ^9.0"
     },
     "authors": [
         {
