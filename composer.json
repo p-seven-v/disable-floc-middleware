@@ -18,6 +18,9 @@
             "email": "alex@p7v.app"
         }
     ],
+    "provide": {
+        "psr/http-server-middleware-implementation": "1.0"
+    },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
