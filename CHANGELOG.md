@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.5 - 2022-03-23](https://github.com/p-seven-v/disable-floc-middleware/compare/1.0.4...1.0.5)
 
 ### Added
-- Added provide section, marking package as psr/http-server-middleware-implementation
+- Added `provide` section, marking package as `psr/http-server-middleware-implementation`
 
 ## [1.0.4 - 2022-01-12](https://github.com/p-seven-v/disable-floc-middleware/compare/1.0.3...1.0.4)
 
