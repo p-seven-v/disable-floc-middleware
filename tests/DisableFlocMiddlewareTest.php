@@ -17,8 +17,7 @@ class DisableFlocMiddlewareTest extends TestCase
 {
     private const PERMISSIONS_POLICY_HEADER_NAME = 'Permissions-Policy';
 
-    /** @var DisableFlocMiddleware */
-    private $sut;
+    private DisableFlocMiddleware $sut;
 
     protected function setUp(): void
     {
