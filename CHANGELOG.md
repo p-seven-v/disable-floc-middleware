@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Added `composer.lock` as `export-ignore` to `.gitattributes`
 
+### Removed
+- Removed `symfony/polyfill-php73` from dev dependencies
+
 ## [1.1.0 - 2022-03-23](https://github.com/p-seven-v/disable-floc-middleware/compare/1.0.5...1.1.0)
 
 ### Changed
