@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/p-seven-v/disable-floc-middleware/compare/1.1.1...master)
 
-## [1.1.1 - 2022-03-23](https://github.com/p-seven-v/disable-floc-middleware/compare/1.1.0...1.1.1)
+## [1.1.1 - 2022-04-23](https://github.com/p-seven-v/disable-floc-middleware/compare/1.1.0...1.1.1)
 
 ### Changed
 - Added composer.lock as export-ignore to .gitattributes
