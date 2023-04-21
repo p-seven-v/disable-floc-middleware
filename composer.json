@@ -10,8 +10,8 @@
         "psr/http-server-middleware": "^1.0"
     },
     "require-dev": {
-        "nyholm/psr7": "^1.5.1",
-        "phpunit/phpunit": "^9.5.26"
+        "nyholm/psr7": "^1.7.0",
+        "phpunit/phpunit": "^9.6.7"
     },
     "authors": [
         {
