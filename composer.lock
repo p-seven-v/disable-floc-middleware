@@ -4,29 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36a91defb4aad2faf66efcf88695d7f6",
+    "content-hash": "db0fe844137316ec6eda825a3a1f60d7",
     "packages": [
         {
             "name": "psr/http-message",
-            "version": "1.0.1",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
+                "reference": "cb6ce4845ce34a8ad9e68117c10ee90a29919eba",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -55,27 +55,27 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
+                "source": "https://github.com/php-fig/http-message/tree/1.1"
             },
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2023-04-04T09:50:52+00:00"
         },
         {
             "name": "psr/http-server-handler",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-handler.git",
-                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7"
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
-                "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+                "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/84c4fb66179be4caaf8e97bd239203245302e7d4",
+                "reference": "84c4fb66179be4caaf8e97bd239203245302e7d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -95,7 +95,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP server-side request handler",
@@ -111,28 +111,27 @@
                 "server"
             ],
             "support": {
-                "issues": "https://github.com/php-fig/http-server-handler/issues",
-                "source": "https://github.com/php-fig/http-server-handler/tree/master"
+                "source": "https://github.com/php-fig/http-server-handler/tree/1.0.2"
             },
-            "time": "2018-10-30T16:46:14+00:00"
+            "time": "2023-04-10T20:06:20+00:00"
         },
         {
             "name": "psr/http-server-middleware",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-server-middleware.git",
-                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5"
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/2296f45510945530b9dceb8bcedb5cb84d40c5f5",
-                "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+                "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
+                "reference": "c1481f747daaa6a0782775cd6a8c26a1bf4a3829",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0",
-                "psr/http-message": "^1.0",
+                "psr/http-message": "^1.0 || ^2.0",
                 "psr/http-server-handler": "^1.0"
             },
             "type": "library",
@@ -153,7 +152,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP server-side middleware",
@@ -169,9 +168,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/http-server-middleware/issues",
-                "source": "https://github.com/php-fig/http-server-middleware/tree/master"
+                "source": "https://github.com/php-fig/http-server-middleware/tree/1.0.2"
             },
-            "time": "2018-10-30T17:12:04+00:00"
+            "time": "2023-04-11T06:14:47+00:00"
         }
     ],
     "packages-dev": [
@@ -362,38 +361,39 @@
         },
         {
             "name": "nyholm/psr7",
-            "version": "1.5.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nyholm/psr7.git",
-                "reference": "f734364e38a876a23be4d906a2a089e1315be18a"
+                "reference": "ed7cf98f6562831dbc3c962406b5e49dc8179c8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/f734364e38a876a23be4d906a2a089e1315be18a",
-                "reference": "f734364e38a876a23be4d906a2a089e1315be18a",
+                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/ed7cf98f6562831dbc3c962406b5e49dc8179c8c",
+                "reference": "ed7cf98f6562831dbc3c962406b5e49dc8179c8c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1",
+                "php": ">=7.2",
                 "php-http/message-factory": "^1.0",
                 "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.1 || ^2.0"
             },
             "provide": {
+                "php-http/message-factory-implementation": "1.0",
                 "psr/http-factory-implementation": "1.0",
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
                 "http-interop/http-factory-tests": "^0.9",
-                "php-http/psr7-integration-tests": "^1.0",
+                "php-http/psr7-integration-tests": "^1.0@dev",
                 "phpunit/phpunit": "^7.5 || 8.5 || 9.4",
                 "symfony/error-handler": "^4.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -423,7 +423,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Nyholm/psr7/issues",
-                "source": "https://github.com/Nyholm/psr7/tree/1.5.1"
+                "source": "https://github.com/Nyholm/psr7/tree/1.7.0"
             },
             "funding": [
                 {
@@ -435,7 +435,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-22T07:13:36+00:00"
+            "time": "2023-04-20T08:38:48+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -550,26 +550,26 @@
         },
         {
             "name": "php-http/message-factory",
-            "version": "v1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message-factory.git",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
-                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
+                "reference": "4d8778e1c7d405cbb471574821c1ff5b68cc8f57",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -598,9 +598,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/message-factory/issues",
-                "source": "https://github.com/php-http/message-factory/tree/master"
+                "source": "https://github.com/php-http/message-factory/tree/1.1.0"
             },
-            "time": "2015-12-19T14:08:53+00:00"
+            "time": "2023-04-14T14:16:17+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -922,16 +922,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.6",
+            "version": "9.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b65d59a059d3004a040c16a82e07bbdf6cfdd115"
+                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b65d59a059d3004a040c16a82e07bbdf6cfdd115",
-                "reference": "b65d59a059d3004a040c16a82e07bbdf6cfdd115",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
+                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.7"
             },
             "funding": [
                 {
@@ -1021,25 +1021,25 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-27T11:43:46+00:00"
+            "time": "2023-04-14T08:58:40+00:00"
         },
         {
             "name": "psr/http-factory",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                "reference": "e616d01114759c4c489f93b099585439f795fe35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35",
+                "reference": "e616d01114759c4c489f93b099585439f795fe35",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0",
-                "psr/http-message": "^1.0"
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "type": "library",
             "extra": {
@@ -1059,7 +1059,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for PSR-7 HTTP message factories",
@@ -1074,9 +1074,9 @@
                 "response"
             ],
             "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
+                "source": "https://github.com/php-fig/http-factory/tree/1.0.2"
             },
-            "time": "2019-04-30T12:38:16+00:00"
+            "time": "2023-04-10T20:10:41+00:00"
         },
         {
             "name": "sebastian/cli-parser",
